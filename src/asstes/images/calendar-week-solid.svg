@@ -1,0 +1,8 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="448" height="512">
+	<title>calendar-week-solid-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" className="shp0" d="M0 192L448 192L448 464C448 490.5 426.5 512 400 512L48 512C21.5 512 0 490.5 0 464L0 192ZM64 336C64 344.8 71.2 352 80 352L368 352C376.8 352 384 344.8 384 336L384 272C384 263.2 376.8 256 368 256L80 256C71.2 256 64 263.2 64 272L64 336ZM448 112L448 160L0 160L0 112C0 85.5 21.5 64 48 64L96 64L96 16C96 7.2 103.2 0 112 0L144 0C152.8 0 160 7.2 160 16L160 64L288 64L288 16C288 7.2 295.2 0 304 0L336 0C344.8 0 352 7.2 352 16L352 64L400 64C426.5 64 448 85.5 448 112Z" />
+</svg>

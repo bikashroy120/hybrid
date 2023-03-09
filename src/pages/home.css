@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.hero-box
+{
+    background: var(--primary-gradient);
+    min-height: 800px;
+    box-shadow: 0px 19px 56px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 9;
+}
+
+.navbar-top{
+    padding-top: 40px;
+    position: relative;
+    z-index: 99;
+}
+
+.navbar-collapse{
+    position: relative; 
+    max-width: 1058px;
+    z-index: 9;
+    margin-left: 5%;
+}
+
+.navbar-collapse::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #E6C5FF 0%, #F7F7F7 100%);
+     border-radius: 18px;
+    box-shadow: 0px 4px 29px rgba(0, 0, 0,0.25);
+     transform: rotateX(-20deg);
+    -webkit-transform: rotateX(-20deg);
+    transform-style: preserve-3d;
+   transform-origin: 0 0;
+   -webkit-transform-origin: 0 0;
+    display: block;
+    z-index: -1000;
+}
+
+.navbar-collapse::after{
+    content: "";
+    position: absolute;
+    top: 4px;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    width: calc(100% - 10px);
+    height: calc(100% - 8px);
+    background: linear-gradient(179.71deg, #FFFEFE 0.26%, rgba(255, 255, 255, 0.2) 45.19%);
+     opacity: 0.3;
+     box-shadow: 0px 4px 29px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+   transform: rotateX(-20deg);
+    -webkit-transform: rotateX(-20deg);
+    transform-style: preserve-3d;
+   transform-origin: 0 0;
+   -webkit-transform-origin: 0 0;
+    display: block;
+    z-index: -1000;
+} 
+
+
